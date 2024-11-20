@@ -76,7 +76,8 @@ const ProductDetails = () => {
     }
 
     const handleBuyProduct = async (e, id) => {
-        await addToCart(e, id)
+        const res = await addToCart(e, id)
+        console.log(res);
         fetchUserAddToCart()
         navigate("/cart")
     }
