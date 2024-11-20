@@ -1,4 +1,4 @@
-const backendDomain = "http://localhost:8080";
+const backendDomain = "https://ecommerce-backend-theta-tawny.vercel.app";
 
 const SummaryApi = {
     signUp : {
